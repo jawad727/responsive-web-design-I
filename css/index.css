@@ -291,12 +291,13 @@ width: 250px;
     }
 
     .head nav {
+        width: 700px;
         display: flex;
         justify-content: space-between;
     }
 
     .logo {
-margin-bottom: 40px;
+    margin-bottom: 40px;
     }
 
     .codeimg {
@@ -311,6 +312,11 @@ margin-bottom: 40px;
     .lefts {
         margin: 0px;
         margin-top: 10px;
+    }
+
+    .seperator {
+        width: 350px;
+
     }
 
     .firstmid {
@@ -340,16 +346,18 @@ margin-bottom: 40px;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-
+        justify-content: center;
     }
 
     .head nav {
         flex-direction: column;
+        align-items: center;
     }
 
     .head nav a {
+        margin: 0px;
         border-top: 1px solid gray;
-       padding: 20px 220px;
+       padding: 20px 200px;
     }
 
     .firstmid {
@@ -366,7 +374,12 @@ margin-bottom: 40px;
     .thirdmid {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
+    .threemid {
+        width: 450px;
+        margin-top: 20px;
+    }
 
 }
