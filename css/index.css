@@ -1,3 +1,408 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+body .toppage nav a {
+	color: grey;
+	text-decoration: none;
+	margin-right: 50px;
+}
+
+body .toppage nav a:hover {
+color:black;
+}
+
+.toppage {
+	display: flex;
+	align-items: baseline;
+	justify-content: center;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.services {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid grey;
+}
+
+#centered {
+	display: flex;
+	justify-content: center;
+}
+
+.middle6 {
+	display: flex;
+	flex-wrap: wrap;
+	width: 400px;
+	border: 1px solid grey;
+	padding: 20px;
+	background-color: #ECEBEB;
+	margin: 20px;
+}
+
+button {
+	margin-top: 20px;
+	background-color: white;
+	border: 1px solid grey;
+	padding: 5px;
+	padding-left: 25px;
+	padding-right: 25px;
+	
+}
+
+.middle6 button:hover {
+background-color: grey;
+}
+
+#mids {
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 20px;
+	border-bottom: 2px solid black;
+}
+
+.container-services {
+	width: 880px;
+	margin: 0 auto;
+}
+
+.servicefacts {
+	display: flex;
+	flex-wrap: wrap;
+	width: 400px;
+	flex-direction: column;
+	margin-left: 20px;
+}
+
+.bottom3 {
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+}
+
+.thelist li {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10px;
+	list-style-type: circle;
+}
+
+.thelist {
+	margin-top: 20px;
+	
+}
+
+.servicefacts h3 {
+	margin: 0px;
+display: flex;
+height: 25px;
+margin-top: 0px;
+}
+
+.spacee {
+	margin-right: 25px;
+}
+
+.bottom {
+	display: flex;
+	justify-content: center;
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+
+.h20 {
+	font-size: 20px;
+}
+
+.servicetitle {
+	margin-top: 5px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.head nav a {
+	color: grey;
+	text-decoration: none;
+	margin-right: 50px;
+}
+
+.head {
+	display: flex;
+	align-items: baseline;
+	justify-content: center;
+}
+
+
+.innovation {
+	font-size: 70px;
+	text-align: center;
+}
+
+.lefts {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+margin-left: 50px;
+}
+
+.main {
+	display: flex;
+	margin-top: 60px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid grey;
+	padding-bottom: 50px;
+	justify-content: space-between;
+}
+
+.codeimg {
+
+}
+
+.startedd {
+	text-align: center;
+}
+
+.navigation {
+	margin-right: 30px;
+}
+
+.firstmid {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.seperator {
+	display: flex;
+	flex-wrap: wrap;
+	width: 400px;
+
+}
+
+.threemid {
+display: flex;
+flex-wrap: wrap;
+width: 250px;
+}
+
+.thirdmid {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	border-bottom: 1px solid grey;
+	padding-bottom: 30px;
+}
+
+.foot {
+	margin-top: 30px;
+width: 250px;
+}
+
+.cpyr {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+@media (max-width: 800px) {
+
+    .middle-img {
+        width: 800px;
+    }
+
+    .container-services {
+        width: 800px;
+    }
+
+    .head {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+
+    .head nav a {
+        margin: 0px;
+    }
+
+    .head nav {
+        width: 700px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+    margin-bottom: 40px;
+    }
+
+    .codeimg {
+        display: none;
+    }
+
+    .main {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 80px;
+    }
+    .lefts {
+        margin: 0px;
+        margin-top: 10px;
+    }
+
+    .seperator {
+        width: 350px;
+
+    }
+
+    .firstmid {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .thirdmid {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .foot {
+        margin-left: 15px;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+
+    .secondmid {
+        display: flex;
+        justify-content: center;
+    }
+
+    .middle-img {
+        width: 480px;
+    }
+
+    .container-services {
+        width: 500px;
+    }
+
+    .head {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .head nav {
+        width: 500px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .head nav a {
+        margin: 0px;
+        border-top: 1px solid gray;
+       padding: 20px 47%;
+    }
+
+    .head nav .borderbottom {
+        border-bottom: 1px solid grey;
+    }
+
+    .firstmid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .seperator {
+        width: 450px;
+        margin-top: 20px;
+    }
+
+    .thirdmid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .threemid {
+        width: 450px;
+        margin-top: 20px;
+    }
+    .cpyr {
+
+    }
+}
 
 
